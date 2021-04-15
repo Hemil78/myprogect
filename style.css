@@ -1,0 +1,88 @@
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-position: center;
+  font-family: sans-serif;
+}
+
+
+.box1 {
+  width:1000px;
+  height:700px;
+  padding:80px;
+  background-color: #000;
+  opacity:0.8;
+  margin: auto;
+  border-radius: 20px;
+  margin-top: 40px;
+  color: #ffff;
+}
+
+/* logo e intestazione */
+
+header{
+  text-align: center;
+}
+
+h1{
+  color: #00dd00;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+img{
+  width: 300;
+  height: 137px;
+}
+
+/* barra di navigazione */
+
+nav{
+  background-color: #00dd00;
+  padding: 10px;
+  text-align: center;
+}
+
+button{
+  border-radius: 5px;
+  font-family: sans-serif;
+}
+
+/* livello batterie */
+h2{
+  display: inline-block;
+  margin-bottom: 7px;
+}
+
+p{
+  margin: auto;
+  margin-top: 7px;
+}
+
+.mono{
+  margin-top: 20px;
+}
+
+.level1{
+  background-color: #f5b453;
+  border: 2px solid black;
+  height: 25px;
+  width: 350px;
+  border-radius: 8px;
+}
+
+.level2{
+  background-color: #1ec31e;
+  border: 2px solid black;
+  height: 25px;
+  width: 600px;
+  border-radius: 8px;
+}
+
+.level3{
+  background-color: #be4141;
+  border: 2px solid black;
+  height: 25px;
+  width: 125px;
+  border-radius: 8px;
+}
